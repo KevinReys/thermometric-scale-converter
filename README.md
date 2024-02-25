@@ -13,8 +13,11 @@ Funcionalidades
 
 ## Este conversor oferece a possibilidade de converter entre as seguintes escalas:
 -CELSIUS - FAHRENHEIT: Converte de Celsius para Fahrenheit.
+<br>
 -FAHRENHEIT - CELSIUS: Converte de Fahrenheit para Celsius.
+<br>
 -CELSIUS - KELVIN: Converte de Celsius para Kelvin.
+<br>
 -KELVIN - CELSIUS: Converte de Kelvin para Celsius.
 
 ## Como usar
