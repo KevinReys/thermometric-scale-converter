@@ -28,8 +28,14 @@ Funcionalidades
 3° Será direcionado para uma nova página com o resultado da conversão.
 <br>
 
-## Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request para melhorar este projeto.
+## Como contribuir
+Se você gostaria de contribuir com melhorias para este conversor de temperatura, você pode seguir estas etapas:
+
+1. Faça um fork deste repositório.
+2. Crie uma branch para suas alterações (`git checkout -b minha-contribuicao`).
+3. Faça commit de suas alterações (`git commit -am 'Adicionando funcionalidade X'`).
+4. Faça push para a branch (`git push origin minha-contribuicao`).
+5. Abra uma solicitação de pull request.
 
 ## Autor
 Este projeto foi desenvolvido por Kevin Reys
