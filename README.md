@@ -3,7 +3,9 @@ Este é um simples conversor de escalas termométricas desenvolvido em HTML.
 
 ## Principais Escalas Termométricas
 Celsius (°C): Também conhecida como escala centígrada, é uma escala de temperatura em que o ponto de congelamento da água é 0 graus e o ponto de ebulição é 100 graus.
+<br>
 Fahrenheit (°F): É uma escala de temperatura em que o ponto de congelamento da água é 32 graus e o ponto de ebulição é 212 graus.
+<br>
 Kelvin (K): É uma unidade de temperatura no sistema internacional de unidades (SI), onde o zero absoluto é definido como 0 Kelvin (−273,15 graus Celsius) e cada grau Kelvin é igual a um grau Celsius.
 Funcionalidades
 
