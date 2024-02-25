@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+<style>
+        body {  /* Document body */
+        background-image: url('img/4kbackdegrade.jpg');
+        background-size: cover;  /* Para tornar a imagem de fundo responsiva, utilizei a propriedade background-size com o valor cover. */
+        background-position: center; /* Para tornar a imagem de fundo responsiva, utilizei a propriedade background-position com o valor center. */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;  
+    }
+    .converter { /* Boxset doc */
+        width: 300px;
+        padding: 50px;
+        border: 2px solid #000000;
+        margin: 20px;
+        display: inline-block;
+        box-sizing: border-box;
+        box-shadow: 0 0 20px rgb(80, 80, 235); /* Borda efeito neon */
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    h2 { /* TEMPERATURE CONVERTER */
+        text-align: center;
+        font-family: sans-serif;
+        color: white;
+    }
+
+    p { /* 1 to 2 */
+        text-align: center;
+        font-size: 20px;
+        color: #ffffff;
+    }
+
+    input[type="text"] { /* Quest */
+        width: 96%;
+        margin-bottom: 15px;
+    }
+
+    button {
+        display: block;
+        width: (100% - 40px);
+        padding: 10px 10px;
+        margin-bottom: 10px;
+        background-color: #077cfa;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+    }
+    .button { 
+        padding: 10px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #0451a3;
+    }
+ 
+</style>
+</head>
+<body>
+    <div class="converter">
+        <h2>TEMPERATURE CONVERTER</h2>
+        <p>Kelvin to Celsius</p>
+        <p2><strong>Fórmula:</strong><br>33 K − 273,15 = -240,1 °C</p2>
+        <input type="text" id="kelvinInput" placeholder="Degree Kelvin">
+        <button onclick="convert()">Convert</button>
+        <input type="text" id="celsiusResult"placeholder="Degree Celsius">
+        <button onclick="goBack()">Back</button>
+    </div>
+<script>
+       function convert() {
+    var kelvin = parseFloat(document.getElementById('kelvinInput').value);
+    var celsius = (kelvin - 273.15)
+    document.getElementById('celsiusResult').value = celsius.toFixed(2);
+}
+function goBack() {
+    window.history.back();
+}
+</script>
+</body>
+</html>
