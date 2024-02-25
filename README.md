@@ -1,5 +1,6 @@
 ## Thermometric Scale Converter
 Este é um simples conversor de escalas termométricas desenvolvido em HTML.
+<br>
 As escalas termométricas são compostas por valores arbitrários selecionados com base nos pontos de fusão e ebulição da água. Elas são usadas para medir o grau de agitação molecular de um sistema, ou seja, para estabelecer valores de temperatura.
 
 ## Principais Escalas Termométricas
