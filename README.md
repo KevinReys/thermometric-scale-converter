@@ -21,10 +21,14 @@ Funcionalidades
 -KELVIN - CELSIUS: Converte de Kelvin para Celsius.
 
 ## Como usar
-Abra o arquivo index.html em um navegador da web.
-Clique nos links correspondentes às conversões desejadas.
-Será direcionado para uma nova página com o resultado da conversão.
-Contribuição
+1° Abra o arquivo index.html em um navegador da web.
+<br>
+2° Clique nos links correspondentes às conversões desejadas.
+<br>
+3° Será direcionado para uma nova página com o resultado da conversão.
+<br>
+
+## Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request para melhorar este projeto.
 
 ## Autor
